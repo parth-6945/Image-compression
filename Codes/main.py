@@ -128,8 +128,8 @@ def process_images_in_folder(input_folder, output_folder, csv_file_path):
 
 
 if __name__ == "__main__":
-    input_folder = r"C:\Users\parth\projects\Compression\Images"
-    output_folder = r"C:\Users\parth\projects\Compression\Compressed"
-    csv_file_path = r"C:\Users\parth\projects\Compression\compression_results.csv"
+    input_folder = r"Compression\Images"
+    output_folder = r"Compression\Compressed"
+    csv_file_path = r"Compression\compression_results.csv"
 
     process_images_in_folder(input_folder, output_folder, csv_file_path)
